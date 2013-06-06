@@ -1,0 +1,117 @@
+/****
+
+#OrbitalDial {
+	width: 288px;
+	height: 288px;
+	position: relative;
+	background-color:grey;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+#Slider {
+	display: none;
+	position: absolute;
+	height: 49px;
+	width: 49px;
+	background-color: white;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#OuterSlider {
+	display: none;
+	position: absolute;
+	height: 49px;
+	width: 49px;
+	background-color: black;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+***/
+/* line 38, ../sass/dialStyles.scss */
+body {
+  padding: 0;
+  margin: 0px 50px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  text-rendering: optimizelegibility;
+  background-color: #c6c0b2;
+}
+
+/* line 46, ../sass/dialStyles.scss */
+p {
+  font-size: 30px;
+  line-height: 30px;
+}
+
+/* line 47, ../sass/dialStyles.scss */
+div.demo {
+  text-align: center;
+  width: 280px;
+  float: left;
+}
+
+/* line 48, ../sass/dialStyles.scss */
+div.demo > p {
+  font-size: 20px;
+}
+
+/* line 50, ../sass/dialStyles.scss */
+.file {
+  background: transparent url("../images/file.png");
+  height: 90px;
+  width: 140px;
+  display: block;
+  margin-left: 300px;
+  margin-top: 200px;
+}
+/* line 58, ../sass/dialStyles.scss */
+.file:hover {
+  cursor: pointer;
+}
+
+/* line 63, ../sass/dialStyles.scss */
+.folder_4 {
+  background-position: 0px -236px;
+}
+
+/* line 67, ../sass/dialStyles.scss */
+.big_folder {
+  background: transparent url("../images/file.png") 0px -100px no-repeat;
+  height: 130px;
+  width: 200px;
+  margin-left: 354px;
+  margin-top: 240px;
+  display: none;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 200;
+  position: absolute;
+}
+
+/* line 80, ../sass/dialStyles.scss */
+.file_cont {
+  position: absolute;
+  z-index: 999;
+}
+
+/* line 85, ../sass/dialStyles.scss */
+.libya {
+  position: absolute;
+  right: 75px;
+  top: 230px;
+  z-index: 100;
+  opacity: 0;
+}
+
+/* line 93, ../sass/dialStyles.scss */
+.web {
+  position: absolute;
+  right: 75px;
+  top: 120px;
+  z-index: 100;
+  opacity: 0;
+}
